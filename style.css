@@ -1,5 +1,7 @@
-/* 12/20 
-Floating collision. If we float 2 things to the left, for instance two boxes, picture them starting in the upper right corner of the window and then sliding left until they hit something. Our first box will stop when it hits the body container. The second box will stop when it hits the edge of the first box. So what's the net result? The boxes end up side-by-side. 
+/* 13/20 
+Marginally different. Let's play with the margins. 
+1) Add a margin-left of 20px to the second box
+2) 14/20: change your value to -20px and see what happens
 */
 
 div {
@@ -17,6 +19,7 @@ div {
 #box2 {
   background: #0f0;
   float: left;
+  margin-left: -20px;
 }
 
 
