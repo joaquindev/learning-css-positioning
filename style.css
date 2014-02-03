@@ -1,25 +1,30 @@
-/* 13/20 
-Marginally different. Let's play with the margins. 
-1) Add a margin-left of 20px to the second box
-2) 14/20: change your value to -20px and see what happens
+/* 15/20 
+Clear it up. 
 */
 
-div {
-  width: 100px; 
-  height: 100px; 
-  border: 3px solid #444;
-  padding: 4px;
+#longer {
+    float: left;
+    width: 30%;
+    background: #66FFFF;
+    padding: 10px;
 }
 
-#box1 {
-  background: #f00;
-  float: left;
+#shorter {
+    background: #FFFF66;
+    padding: 10px;
 }
 
-#box2 {
-  background: #0f0;
-  float: left;
-  margin-left: -20px;
+ul {
+    color: white;
+    background: black;
 }
 
+li {
+    padding: 10px;
+    font-family: Arial;
+    display: inline;
+}
 
+#navbar {
+    clear: both;
+}
