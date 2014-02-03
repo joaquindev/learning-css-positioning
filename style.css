@@ -1,10 +1,25 @@
-/* 10/20 
-Floating images. When images are place on the page and the text flows around them, we call this fact that: the images are floating and we can achieve the same effect with css
+/* 11/20 
+Laying out pages: You can use float images but there is much more. You could put a navbar link in a div and float it so it doesn't cover up any text, regardless of what size and shape the browser is
 */
 #first {
     float: left;
+    margin: 5px;
 }
 
-#second {
-    float: right;
+#navbar {
+    margin: 0;
+    padding: 5px;
+    width: 100px;
+    background: #cccccc;
+    float: right;/* let's float the navbar to the rigth */
+}
+
+#navbar ul {
+    margin: 0;
+    padding: 0;
+}
+
+#navbar li {
+    display: block;
+    margin: 10px;
 }
