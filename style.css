@@ -1,25 +1,10 @@
-/* 9/20 
-Margin can be negative. Margin refer to the space outside our boxes. Negative margins make this space shrink to even inside the border
+/* 10/20 
+Floating images. When images are place on the page and the text flows around them, we call this fact that: the images are floating and we can achieve the same effect with css
 */
-
-div {
-    margin: 15px;
-    padding: 20px;
+#first {
+    float: left;
 }
 
-#one {
-    border: 1px solid #000;
-}
-
-#two {
-    border: 1px dotted #555;
-}
-
-#three {
-    border: 1px dashed #ccc;
-    margin: -20px;
-}
-
-span {
-    border: 1px solid #f00;
+#second {
+    float: right;
 }
