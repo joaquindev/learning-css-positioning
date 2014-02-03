@@ -1,0 +1,20 @@
+h1 {
+  color: red;
+  size: 30px;
+}
+
+#tagline {
+  color: green;
+}
+
+h2 {
+    color: orange;
+}
+
+.date {
+    text-align: center;
+}
+
+#nav li {
+    display: inline-block;
+}
