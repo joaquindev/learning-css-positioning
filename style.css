@@ -1,4 +1,12 @@
-/* 5/20 */
+/* 9/20 
+Margin can be negative. Margin refer to the space outside our boxes. Negative margins make this space shrink to even inside the border
+*/
+
+div {
+    margin: 15px;
+    padding: 20px;
+}
+
 #one {
     border: 1px solid #000;
 }
@@ -9,6 +17,7 @@
 
 #three {
     border: 1px dashed #ccc;
+    margin: -20px;
 }
 
 span {
