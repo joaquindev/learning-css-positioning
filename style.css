@@ -1,23 +1,16 @@
-/* 4/20 What is the Box Model 
-Each box model consists of 4 shells. From the innermost to the outermost, we have: 
-- Content: the actual element (like text)
-- Padding: The space around the content, but still inside the element
-- Border: Sits between the margin and the padding
-- Margin: The space outside of the element
-*/
-#box {
-    border: 5px dotted red;
-    margin: 15px;
-    padding: 0px;
-    background: gray;
+/* 5/20 */
+#one {
+    border: 1px solid #000;
 }
 
-body {
-    margin: 2px;
-    border: 1px solid blue;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+#two {
+    border: 1px dotted #555;
+}
+
+#three {
+    border: 1px dashed #ccc;
+}
+
+span {
+    border: 1px solid #f00;
 }
