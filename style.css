@@ -1,13 +1,17 @@
-/* 16/20, 17/20, 18/20
-Don't be a Blockhead. Calling what we've done posisioning is a bit of a misnomer because it's really the same way things would be laid out if you don't style them at all. Let's learn about div and p tags and how they automatically create block elements which take up the entire width of their containers unless you specificy otherwise. You can think of block elements as followed by an implicit line break 
-RELATIVE POSITIONing moves them relative to this position, but unlike float positioning, the other elements on the page still think that the element is where it started. 
+/* Step 20/20 
+Mix and Match. 
 */
-div {
-    border: 1px solid black;
+div.wrapper {
+    float: right;
 }
-
+div.grid {
+    color: white;
+    background:red;
+    padding: 5px;  
+}
 #moveMe {
+    background: blue;
     position: relative;
-    top: 10px;
-    left: 10px;
+    top: 5px;
+    left: -5px;
 }
